@@ -1,0 +1,4 @@
+# Dynare output
+example_lucas/+lucas_kappa/
+example_lucas/lucas_kappa/
+*.asv

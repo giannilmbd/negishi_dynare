@@ -1,0 +1,89 @@
+Starting Dynare (version 8-unstable).
+Calling Dynare with arguments: -DSKEWCASE=0 noclearall nolog
+Using build directory: /mnt/TwoTera/Dropbox/dynare_latest/dynare/matlab/../build-matlab
+Starting preprocessing of the model file ...
+WARNING: Parameter(s) h3 sw  not used in the model
+Found 9 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Finding the optimal block decomposition of the static model...
+4 block(s) found:
+  3 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 4 equation(s)
+                                 and 4 feedback variable(s).
+Computing dynamic model derivatives (order 4).
+Normalizing the dynamic model...
+Finding the optimal block decomposition of the dynamic model...
+4 block(s) found:
+  3 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 4 equation(s)
+                                 and 4 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+c1   		 0
+c2   		 0
+p1   		 0
+p2   		 0
+W    		 0
+lk   		 0
+a    		 0
+zz   		 0
+junk 		 0
+Total computing time : 0h00m01s
+Note: 1 warning(s) encountered in the preprocessor
+Starting Dynare (version 8-unstable).
+Calling Dynare with arguments: -DSKEWCASE=1 noclearall nolog
+Using build directory: /mnt/TwoTera/Dropbox/dynare_latest/dynare/matlab/../build-matlab
+Starting preprocessing of the model file ...
+Found 11 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Finding the optimal block decomposition of the static model...
+4 block(s) found:
+  3 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 4 equation(s)
+                                 and 4 feedback variable(s).
+Computing dynamic model derivatives (order 4).
+Normalizing the dynamic model...
+Finding the optimal block decomposition of the dynamic model...
+5 block(s) found:
+  4 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 4 equation(s)
+                                 and 4 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+c1   		 0
+c2   		 0
+p1   		 0
+p2   		 0
+W    		 0
+lk   		 0
+a    		 0
+zz   		 0
+junk 		 0
+b    		 0
+ww   		 0
+Total computing time : 0h00m00s
+
+     s   skA |            h2            h3            h4 |     check |  err ord 2  err ord 4
+ 0.010  0.00 | -9.900000e-05  0.000000e+00  1.372938e-08 |   2.0e-18 |   1.37e-08   2.67e-12
+ 0.020  0.00 | -3.960000e-04  0.000000e+00  2.196700e-07 |   2.7e-18 |   2.19e-07   1.71e-10
+ 0.050  0.00 | -2.475000e-03  0.000000e+00  8.580859e-06 |   1.7e-19 |   8.54e-06   4.15e-08
+ 0.100  0.00 | -9.900000e-03  0.000000e+00  1.372937e-04 |   8.7e-17 |   1.35e-04   2.61e-06
+ 0.150  0.00 | -2.227500e-02  0.000000e+00  6.950496e-04 |   1.7e-16 |   6.66e-04   2.89e-05
+ 0.200  0.00 | -3.960000e-02  0.000000e+00  2.196700e-03 |   3.5e-16 |   2.04e-03   1.56e-04
+ 0.010 -0.50 | -9.900000e-05  6.416667e-09  1.406435e-08 |   3.3e-19 |   2.05e-08   1.85e-11
+ 0.020 -0.50 | -3.960000e-04  5.133333e-08  2.250296e-07 |   1.4e-18 |   2.77e-07   5.00e-10
+ 0.050 -0.50 | -2.475000e-03  8.020833e-07  8.790219e-06 |   4.2e-17 |   9.61e-06   2.16e-08
+ 0.100 -0.50 | -9.900000e-03  6.416667e-06  1.406435e-04 |   1.7e-16 |   1.46e-04   7.48e-07
+ 0.150 -0.50 | -2.227500e-02  2.165625e-05  7.120077e-04 |   2.3e-16 |   7.18e-04   1.61e-05
+ 0.200 -0.50 | -3.960000e-02  5.133333e-05  2.250296e-03 |   3.2e-16 |   2.19e-03   1.08e-04
+exit=0
